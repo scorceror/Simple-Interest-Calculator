@@ -10,13 +10,13 @@ function compute()
         document.getElementById("principal").focus();
         
     } else {
-        document.getElementById("result").innerHTML = "If you deposit <span class='highlight'>"+principal+ "</span> at an interest rate of <span class='highlight'>"+rate+ "</span>. You will receive an amount of <span class='highlight'>"+interest+ "</span> in the year <span class='highlight'>"+year+ "</span>";
+        document.getElementById("result").innerHTML = "If you deposit <span class='highlight'>"+principal+ "</span> at an interest rate of <span class='highlight'>"+rate+ "</span>, you will receive an amount of <span class='highlight'>"+interest+ "</span> in the year <span class='highlight'>"+year+ "</span>";
     }
 }
 
 function updateRate(){
     var rateval = document.getElementById("rate").value;
-    document.getElementById("rate_val").innerText=rateval;
+    document.getElementById("rate_val").innerText=rateval+"%";
 }
  
 
