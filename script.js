@@ -10,7 +10,7 @@ function compute()
         document.getElementById("principal").focus();
         
     } else {
-        document.getElementById("result").innerText = `If you deposit ${principal} at an interest rate of ${rate}. You will receive an amount of ${interest} in the year ${year}`
+        document.getElementById("result").innerHTML = "If you deposit <span class='highlight'>"+principal+ "</span> at an interest rate of <span class='highlight'>"+rate+ "</span>. You will receive an amount of <span class='highlight'>"+interest+ "</span> in the year <span class='highlight'>"+year+ "</span>";
     }
 }
 
