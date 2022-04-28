@@ -1,4 +1,4 @@
-body {background-color:black;font-family:arial;color:white}
+body {background-color:black;font-family:arial;color:white; font-size: 12px;}
 h1{color:grey; font-family: Verdana}
 .maindiv {
     background-color: white;
@@ -15,6 +15,7 @@ h1{color:grey; font-family: Verdana}
 
 .highlight{
     background-color: yellow;
+    font-family:arial;
 }
 
 
